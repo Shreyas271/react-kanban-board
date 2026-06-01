@@ -1,16 +1,27 @@
-# React + Vite
+# 📋 React Kanban Board
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fully functional, interactive Kanban board built with React and Tailwind CSS. This application allows users to manage their workflow by creating tasks, editing descriptions, and dragging cards between different status columns.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
+**[Click here to view the live application](https://kanbanboa.netlify.app/)**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
+* **Drag and Drop Interface:** Built with `@dnd-kit/core` for smooth, collision-detected dragging between columns.
+* **Persistent State:** Utilizes browser `localStorage` to save your tasks, ensuring you never lose your progress when the page refreshes.
+* **Global State Management:** Uses React's Context API to seamlessly pass task data and status updates across the application without prop drilling.
+* **Inline Editing:** Click on any task card to open a modal where you can edit the task description and seamlessly update its status.
+* **Responsive Design:** Styled with Tailwind CSS to provide a clean, modern, and responsive user interface.
 
-## React Compiler
+## 🛠️ Tech Stack
+* **Frontend Framework:** React JS (via Vite)
+* **Styling:** Tailwind CSS 
+* **State Management:** Context API & React Hooks
+* **Drag & Drop:** `dnd-kit`
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 💻 Local Installation & Setup
 
-## Expanding the ESLint configuration
+If you want to run this project locally on your machine, follow these steps:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/Shreyas271/react-kanban-board.git](https://github.com/Shreyas271/react-kanban-board.git)
